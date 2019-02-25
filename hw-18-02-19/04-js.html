@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript">
+    let login = prompt("Кто пришел?")
+    if (login === "admin") {
+     let password = prompt("Введите пароль")
+   } else if (password == null) {
+      alert("Вход отменён");
+    } else if (password != "banana23") {
+      alert("Я вас не знаю")
+    } else if (password === "banana23") {
+      alert("Добро пожаловать!")
+    }
+  </script>
+</body>
+</html>
